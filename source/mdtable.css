@@ -1,0 +1,31 @@
+/* ===== data tables inside question text (markdown) ===== */
+.mdt{overflow-x:auto;margin:14px 0;border:1px solid rgba(23,30,51,.12);border-radius:14px;background:#fff;-webkit-overflow-scrolling:touch}
+.mdt table{width:100%;border-collapse:collapse;font-size:.92rem;margin:0!important;background:#fff}
+.mdt th{background:#EEF0FE;color:#3730A3;font-family:'Heebo',sans-serif;font-weight:700;font-size:.85rem;padding:10px 12px;text-align:start;border-bottom:2px solid #C7CBF5;white-space:nowrap;position:sticky;top:0}
+.mdt td{padding:9px 12px;border-bottom:1px solid rgba(23,30,51,.08);border-inline-start:1px solid rgba(23,30,51,.05);text-align:start;vertical-align:top}
+.mdt td:first-child,.mdt th:first-child{border-inline-start:none}
+.mdt tbody tr:nth-child(even) td{background:#F8F9FD}
+.mdt tbody tr:hover td{background:#F1F2FC}
+.mdt td.num{direction:ltr;text-align:end;font-variant-numeric:tabular-nums;white-space:nowrap}
+.mdt tr.total td{font-weight:800;background:#FDF3E3!important;border-top:2px solid #F3C98B}
+.mdt tr.gap td{color:#A0A6BA;text-align:center;padding:2px 12px;background:#fff!important}
+@media (max-width:760px){
+  .mdt{border:none;background:transparent;overflow:visible}
+  .mdt table,.mdt tbody,.mdt tr,.mdt td{display:block;width:100%;background:transparent}
+  .mdt thead{display:none}
+  .mdt tr{background:#fff!important;border:1px solid rgba(23,30,51,.12);border-radius:14px;margin-bottom:10px;overflow:hidden}
+  .mdt tr.gap{display:none}
+  .mdt td{display:flex;justify-content:space-between;gap:12px;border:none!important;border-bottom:1px solid rgba(23,30,51,.06)!important;padding:7px 14px;background:#fff!important}
+  .mdt td:last-child{border-bottom:none!important}
+  .mdt td::before{content:attr(data-label);font-family:'Heebo',sans-serif;font-weight:700;font-size:.8rem;color:#4F46E5;flex:none;max-width:55%}
+  .mdt td.num{text-align:end}
+  .mdt td.head{background:#EEF0FE!important;font-family:'Heebo',sans-serif;font-weight:800;color:#171E33}
+  .mdt td.head::before{content:none}
+  .mdt td.empty{display:none}
+  .mdt tr.total{border-color:#F3C98B}
+  .mdt tr.total td{background:#FFFBF3!important}
+}
+.mdt .rn{display:none}
+@media (max-width:760px){.mdt .rn{display:inline}}
+.mdt td.head{white-space:nowrap;font-weight:600;color:#171E33}
+@media (max-width:760px){.mdt td.head{white-space:normal}}

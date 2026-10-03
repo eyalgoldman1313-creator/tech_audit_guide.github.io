@@ -128,7 +128,7 @@ const index = chapters.flatMap((c) => c.articles.map((a) => ({
 const nArticles = index.length;
 
 const refCss = fs.readFileSync(path.join(ROOT, 'ref_style.css'), 'utf8');
-const extraCss = fs.readFileSync(path.join(ROOT, 'extra.css'), 'utf8') + fs.readFileSync(path.join(ROOT, 'mobile.css'), 'utf8');
+const extraCss = fs.readFileSync(path.join(ROOT, 'extra.css'), 'utf8') + fs.readFileSync(path.join(ROOT, 'mobile.css'), 'utf8') + fs.readFileSync(path.join(ROOT, 'mdtable.css'), 'utf8');
 const mobileJs = fs.readFileSync(path.join(ROOT, 'mobile.js'), 'utf8');
 const sheet = chapters.map((c) => `<details data-ch="ch-${c.id}"><summary><span class="n" style="background:${c.accent}">${c.num}</span>${esc(c.title)}<span class="chev">⌄</span></summary><div class="arts"><a href="#ch-${c.id}"><b>פתיחת הפרק</b></a>${c.articles.map((a) => `<a href="#${esc(a.id)}">${inline(a.title)}</a>`).join('')}</div></details>`).join('');
 const script = fs.readFileSync(path.join(ROOT, 'guide.js'), 'utf8');
@@ -202,6 +202,8 @@ ${sections}
 <script>
 ${script}
 ${mobileJs}
+${fs.readFileSync(path.join(ROOT, 'mdtable.js'), 'utf8')}
+enhanceTables(document);
 </script>
 </body>
 </html>`;
