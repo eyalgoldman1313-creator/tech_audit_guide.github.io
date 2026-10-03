@@ -1,0 +1,44 @@
+/* ===== additions for the IT-audit guide ===== */
+a.brand{text-decoration:none}
+.nav-item>a.ext{color:var(--indigo)}
+.one-col{display:grid;margin-block:14px 6px}
+.summary p{margin:0}
+.summary p + p{margin-block-start:10px}
+.summary ul,.summary ol{padding-inline-start:1.3em;margin-block:6px}
+ol.numbered{margin:0 0 6px;padding-inline-start:0;list-style:none;counter-reset:n}
+ol.numbered li{counter-increment:n;position:relative;padding-inline-start:40px;padding-block:7px;font-size:1.02rem;line-height:1.7;color:var(--ink-soft)}
+ol.numbered li::before{content:counter(n);position:absolute;inset-inline-start:0;inset-block-start:7px;width:28px;height:28px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-family:'Heebo';font-weight:800;font-size:.85rem;background:var(--local-accent-soft);color:var(--local-accent)}
+.standard{--local-accent:var(--accent);--local-accent-soft:var(--accent-soft)}
+.tbl-wrap{overflow-x:auto;border-radius:14px;border:1px solid var(--hairline);margin-block:6px 10px}
+table.gtable{width:100%;border-collapse:collapse;background:#fff;font-size:.98rem}
+table.gtable th{background:color-mix(in srgb,var(--local-accent) 10%,#fff);font-family:'Heebo';font-weight:700;color:var(--local-accent);text-align:start;padding:11px 14px;border-block-end:1px solid var(--hairline);font-size:.93rem}
+table.gtable td{padding:10px 14px;border-block-end:1px solid var(--hairline);vertical-align:top;line-height:1.65;color:var(--ink-soft)}
+table.gtable td b{color:var(--ink)}
+table.gtable tr:last-child td{border-block-end:none}
+table.gtable tr:nth-child(even) td{background:color-mix(in srgb,var(--local-accent) 2.5%,#fff)}
+.notes-block p{margin:0}
+.notes-block p+p{margin-block-start:8px}
+.art-foot{margin-block-start:22px;padding-block-start:16px;border-block-start:1px dashed var(--hairline);display:grid;gap:10px}
+.exam-refs{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.exam-refs .ef-label{font-family:'Heebo';font-weight:800;font-size:.88rem;color:var(--ink)}
+.exam-refs a,.exam-refs span:not(.ef-label){font-size:.84rem;font-weight:600;padding:4px 12px;border-radius:999px;background:var(--local-accent-soft);color:var(--local-accent);text-decoration:none;border:1px solid color-mix(in srgb,var(--local-accent) 22%,transparent)}
+.exam-refs a:hover{background:color-mix(in srgb,var(--local-accent) 16%,#fff)}
+.art-actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
+.practice-link{font-family:'Heebo';font-weight:700;font-size:.9rem;color:#fff;background:var(--ink);padding:8px 18px;border-radius:999px;text-decoration:none;box-shadow:0 10px 22px -12px rgba(23,30,51,.5)}
+.practice-link:hover{transform:translateY(-1px)}
+.srcs{font-size:.84rem;color:var(--muted)}
+.toc{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-block-start:20px}
+.toc a{font-size:.86rem;font-weight:600;color:var(--ink-soft);background:var(--surface);border:1px solid var(--hairline);border-radius:999px;padding:5px 14px;text-decoration:none;transition:background .3s var(--ease),color .3s var(--ease)}
+.toc a:hover{background:var(--accent-soft);color:var(--accent)}
+.search-box{position:relative;max-width:620px;margin:30px auto 0;text-align:start}
+.search-box input{width:100%;font:inherit;font-size:1.02rem;padding:14px 22px;border-radius:999px;border:1px solid var(--hairline);background:rgba(255,255,255,.9);box-shadow:var(--shadow-soft);color:var(--ink)}
+.search-box input:focus{outline:none;border-color:var(--indigo);box-shadow:0 0 0 4px rgba(99,102,241,.14)}
+.results{position:absolute;inset-inline:0;inset-block-start:calc(100% + 8px);z-index:50;background:#fff;border:1px solid var(--hairline);border-radius:18px;box-shadow:0 30px 60px -20px rgba(23,30,51,.3);padding:6px;max-height:60vh;overflow:auto}
+.results a{display:block;padding:9px 14px;border-radius:12px;text-decoration:none;color:var(--ink)}
+.results a:hover,.results a.sel{background:var(--indigo-soft)}
+.results a small{display:block;color:var(--muted);font-size:.8rem}
+.results .none{padding:12px 14px;color:var(--muted)}
+.callout-x{border-radius:14px;padding:12px 16px;background:var(--amber-soft);border-inline-start:4px solid var(--amber);font-size:.98rem;margin-block:12px}
+@media (max-width:600px){body{font-size:17px}.standard{padding:20px 16px}.col-block{padding:16px}table.gtable{font-size:.9rem}table.gtable td,table.gtable th{padding:8px 10px}}
+/* large page: let the browser skip rendering off-screen articles */
+article.standard{content-visibility:auto;contain-intrinsic-size:auto 1400px}

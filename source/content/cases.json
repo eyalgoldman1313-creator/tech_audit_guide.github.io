@@ -1,0 +1,1358 @@
+[
+{
+"id": "sample1-q1",
+"title": "עתידים",
+"source": "מבחן לדוגמה 1, שאלה 1",
+"topics": [
+"outsourcing",
+"systems",
+"sdlc"
+],
+"parts": [
+[
+"נדרש א'",
+"outsourcing"
+],
+[
+"נדרש ב'",
+"systems"
+],
+[
+"נדרש ג'",
+"sdlc"
+]
+]
+},
+{
+"id": "sample1-q2",
+"title": "שמיים פתוחים",
+"source": "מבחן לדוגמה 1, שאלה 2",
+"topics": [
+"controls",
+"security"
+],
+"parts": [
+[
+"נדרש א'",
+"security"
+],
+[
+"נדרש ב'",
+"controls"
+],
+[
+"נדרש ג'",
+"controls"
+]
+]
+},
+{
+"id": "sample1-q3",
+"title": "בית החולים \"המומחים\"",
+"source": "מבחן לדוגמה 1, שאלה 3",
+"topics": [
+"security",
+"process"
+],
+"parts": [
+[
+"נדרש א'",
+"security"
+],
+[
+"נדרש ב'",
+"process"
+],
+[
+"נדרש ג'",
+"security"
+]
+]
+},
+{
+"id": "sample1-q4",
+"title": "ספרים בזול",
+"source": "מבחן לדוגמה 1, שאלה 4",
+"topics": [
+"caat"
+],
+"parts": [
+[
+"נדרש א'",
+"caat"
+],
+[
+"נדרש ב'",
+"caat"
+],
+[
+"נדרש ג'",
+"caat"
+]
+]
+},
+{
+"id": "sample2-q1",
+"title": "כלל ישיר",
+"source": "מבחן לדוגמה 2, שאלה 1",
+"topics": [
+"bcp",
+"outsourcing"
+],
+"parts": [
+[
+"נדרש א'",
+"bcp"
+],
+[
+"נדרש ב'",
+"outsourcing"
+],
+[
+"נדרש ג'",
+"bcp"
+]
+]
+},
+{
+"id": "sample2-q2",
+"title": "אביבי",
+"source": "מבחן לדוגמה 2, שאלה 2",
+"topics": [
+"controls",
+"systems"
+],
+"parts": [
+[
+"נדרש א'",
+"controls"
+],
+[
+"נדרש ב'",
+"controls"
+],
+[
+"נדרש ג'",
+"systems"
+]
+]
+},
+{
+"id": "sample2-q3",
+"title": "השקעה חכמה",
+"source": "מבחן לדוגמה 2, שאלה 3",
+"topics": [
+"security"
+],
+"parts": [
+[
+"נדרש א'",
+"security"
+],
+[
+"נדרש ב'",
+"security"
+],
+[
+"נדרש ג'",
+"security"
+]
+]
+},
+{
+"id": "sample2-q4",
+"title": "הכל בזול",
+"source": "מבחן לדוגמה 2, שאלה 4",
+"topics": [
+"controls",
+"caat"
+],
+"parts": [
+[
+"נדרש א'",
+"controls"
+],
+[
+"נדרש ב'",
+"caat"
+],
+[
+"נדרש ג'",
+"caat"
+]
+]
+},
+{
+"id": "sample3-q1",
+"title": "יצרני אנרגיה",
+"source": "מבחן לדוגמה 3, שאלה 1",
+"topics": [
+"caat",
+"controls"
+],
+"parts": [
+[
+"נדרש א'",
+"caat"
+],
+[
+"נדרש ב'",
+"caat"
+],
+[
+"נדרש ג'",
+"controls"
+]
+]
+},
+{
+"id": "sample3-q2",
+"title": "קצפת",
+"source": "מבחן לדוגמה 3, שאלה 2",
+"topics": [
+"sdlc",
+"systems"
+],
+"parts": [
+[
+"נדרש א'",
+"sdlc"
+],
+[
+"נדרש ב'",
+"systems"
+]
+]
+},
+{
+"id": "sample3-q3",
+"title": "קליק",
+"source": "מבחן לדוגמה 3, שאלה 3",
+"topics": [
+"security"
+],
+"parts": [
+[
+"נדרש א'",
+"security"
+],
+[
+"נדרש ב'",
+"security"
+]
+]
+},
+{
+"id": "sample3-q4",
+"title": "יבואנית תרופות וציוד רפואי (חברה פרטית)",
+"source": "מבחן לדוגמה 3, שאלה 4",
+"topics": [
+"controls",
+"process"
+],
+"parts": [
+[
+"נדרש א'",
+"process"
+],
+[
+"נדרש ב'",
+"controls"
+]
+]
+},
+{
+"id": "sample4-q1",
+"title": "גיוס המוני",
+"source": "מבחן לדוגמה 4, שאלה 1",
+"topics": [
+"controls"
+],
+"parts": [
+[
+"נדרש א'",
+"controls"
+],
+[
+"נדרש ב'",
+"controls"
+]
+]
+},
+{
+"id": "sample4-q2",
+"title": "ביוטי-ליין",
+"source": "מבחן לדוגמה 4, שאלה 2",
+"topics": [
+"security",
+"bcp"
+],
+"parts": [
+[
+"נדרש א'",
+"security"
+],
+[
+"נדרש ב'",
+"bcp"
+]
+]
+},
+{
+"id": "sample4-q3",
+"title": "הלוואה הוגנת",
+"source": "מבחן לדוגמה 4, שאלה 3",
+"topics": [
+"sdlc",
+"caat"
+],
+"parts": [
+[
+"נדרש א'",
+"caat"
+],
+[
+"נדרש ב'",
+"sdlc"
+]
+]
+},
+{
+"id": "sample4-q4",
+"title": "מזון בריאות",
+"source": "מבחן לדוגמה 4, שאלה 4",
+"topics": [
+"systems",
+"outsourcing"
+],
+"parts": [
+[
+"נדרש א'",
+"systems"
+],
+[
+"נדרש ב'",
+"outsourcing"
+]
+]
+},
+{
+"id": "exam2026a-q1",
+"title": "סופר זול",
+"source": "מועד א' 2026, שאלה 1",
+"topics": [
+"controls",
+"security",
+"process",
+"outsourcing"
+],
+"parts": [
+[
+"נדרש 1",
+"security"
+],
+[
+"נדרש 2",
+"process"
+],
+[
+"נדרש 3",
+"controls"
+],
+[
+"נדרש 4",
+"outsourcing"
+]
+]
+},
+{
+"id": "exam2026a-q2",
+"title": "אוניברסיטת \"המסלול להצטיינות\"",
+"source": "מועד א' 2026, שאלה 2",
+"topics": [
+"controls",
+"caat",
+"sdlc"
+],
+"parts": [
+[
+"נדרש 1",
+"controls"
+],
+[
+"נדרש 2",
+"controls"
+],
+[
+"נדרש 3",
+"caat"
+],
+[
+"נדרש 4",
+"sdlc"
+]
+]
+},
+{
+"id": "exam2026a-q3",
+"title": "רשת \"ידע לכל\"",
+"source": "מועד א' 2026, שאלה 3",
+"topics": [
+"controls",
+"caat",
+"sdlc"
+],
+"parts": [
+[
+"נדרש א'",
+"controls"
+],
+[
+"נדרש ב'",
+"caat"
+],
+[
+"נדרש ג'",
+"sdlc"
+]
+]
+},
+{
+"id": "exam2026a-q4",
+"title": "שיבולים",
+"source": "מועד א' 2026, שאלה 4",
+"topics": [
+"caat"
+],
+"parts": [
+[
+"נדרש א'",
+"caat"
+],
+[
+"נדרש ב'",
+"caat"
+],
+[
+"נדרש ג'",
+"caat"
+]
+]
+},
+{
+"id": "exam2026b-q1",
+"title": "כבישים",
+"source": "מועד ב' 2026, שאלה 1",
+"topics": [
+"caat",
+"controls"
+],
+"parts": [
+[
+"נדרש 1",
+"caat"
+],
+[
+"נדרש 2",
+"caat"
+],
+[
+"נדרש 3",
+"controls"
+],
+[
+"נדרש 4",
+"controls"
+]
+]
+},
+{
+"id": "exam2026b-q2",
+"title": "השמש העולה",
+"source": "מועד ב' 2026, שאלה 2",
+"topics": [
+"controls"
+],
+"parts": [
+[
+"נדרש א'",
+"controls"
+],
+[
+"נדרש ב'",
+"controls"
+],
+[
+"נדרש ג'",
+"controls"
+]
+]
+},
+{
+"id": "exam2026b-q3",
+"title": "ברקת",
+"source": "מועד ב' 2026, שאלה 3",
+"topics": [
+"sdlc"
+],
+"parts": [
+[
+"נדרש א'",
+"sdlc"
+],
+[
+"נדרש ב'",
+"sdlc"
+]
+]
+},
+{
+"id": "exam2026c-q1",
+"title": "ספר-נט",
+"source": "מועד ג' 2026, שאלה 1",
+"topics": [
+"security",
+"bcp"
+],
+"parts": [
+[
+"נדרש א'",
+"security"
+],
+[
+"נדרש ב'",
+"bcp"
+]
+]
+},
+{
+"id": "exam2026c-q2",
+"title": "חברה ממשלתית לתכנון הנדסי של כבישים",
+"source": "מועד ג' 2026, שאלה 2",
+"topics": [
+"controls",
+"process"
+],
+"parts": [
+[
+"נדרש א'",
+"process"
+],
+[
+"נדרש ב'",
+"controls"
+],
+[
+"נדרש ג'",
+"controls"
+],
+[
+"נדרש ד'",
+"controls"
+]
+]
+},
+{
+"id": "exam2026c-q3",
+"title": "גלגלים",
+"source": "מועד ג' 2026, שאלה 3",
+"topics": [
+"caat"
+],
+"parts": [
+[
+"נדרש א'",
+"caat"
+],
+[
+"נדרש ב'",
+"caat"
+]
+]
+},
+{
+"id": "council-2015-summer-q9",
+"title": "בנק קרדיט – סייבר, סמארטפון, תחקור נתונים והחלפת מערכת ליבה",
+"source": "בחינת מועצה קיץ 2015 (מועד אביב), שאלה 9",
+"topics": [
+"security",
+"process",
+"caat",
+"sdlc"
+],
+"parts": [
+[
+"נדרש 1",
+"security"
+],
+[
+"נדרש 2",
+"process"
+],
+[
+"נדרש 3",
+"caat"
+],
+[
+"נדרש 4",
+"sdlc"
+]
+]
+},
+{
+"id": "council-2016-summer-q5",
+"title": "מגוון שאלות – הגדרת ITGC וזיקתן לביקורת הדוחות הכספיים",
+"source": "בחינת מועצה קיץ 2016 (מועד אביב), שאלה 5, סעיף 2",
+"topics": [
+"controls"
+],
+"parts": [
+[
+"סעיף 2",
+"controls"
+]
+]
+},
+{
+"id": "council-2016-summer-q9",
+"title": "ספרי בע\"מ – חנות אינטרנטית, שליפות לאיתור היעלמות כספים ושירותי ענן",
+"source": "בחינת מועצה קיץ 2016 (מועד אביב), שאלה 9",
+"topics": [
+"security",
+"caat",
+"process",
+"outsourcing"
+],
+"parts": [
+[
+"נדרש 1",
+"security"
+],
+[
+"נדרש 2",
+"caat"
+],
+[
+"נדרש 3",
+"process"
+],
+[
+"נדרש 4",
+"outsourcing"
+]
+]
+},
+{
+"id": "council-2017-summer-q3",
+"title": "חברת אלקטרובוקס – בדיקות אנליטיות ממוחשבות על דוח מלאי",
+"source": "בחינת מועצה קיץ 2017 (מועד אביב), שאלה 3, נדרש 2",
+"topics": [
+"caat"
+],
+"parts": [
+[
+"נדרש 2",
+"caat"
+]
+]
+},
+{
+"id": "council-2017-summer-q9",
+"title": "חברת הדגל – ITGC לא אפקטיביות והשפעה על דוח המבקר",
+"source": "בחינת מועצה קיץ 2017 (מועד אביב), שאלה 9",
+"topics": [
+"controls",
+"process"
+],
+"parts": [
+[
+"נדרש 1",
+"controls"
+],
+[
+"נדרש 2",
+"controls"
+],
+[
+"נדרש 3",
+"process"
+],
+[
+"נדרש 4",
+"process"
+]
+]
+},
+{
+"id": "council-2018-summer-q4",
+"title": "חווה דעתך – האם ביקורת מערכות מידע היא נושא זניח (רו\"ח מודעי)",
+"source": "בחינת מועצה קיץ 2018 (מועד אביב), שאלה 4, סעיף 4",
+"topics": [
+"process"
+],
+"parts": [
+[
+"סעיף 4",
+"process"
+]
+]
+},
+{
+"id": "council-2018-summer-q9",
+"title": "חברת מעוף – הערכת סיכונים ובקרות במערכות משאבי אנוש, נוכחות ושכר",
+"source": "בחינת מועצה קיץ 2018 (מועד אביב), שאלה 9",
+"topics": [
+"controls",
+"process",
+"outsourcing"
+],
+"parts": [
+[
+"נדרש 1",
+"process"
+],
+[
+"נדרש 2",
+"controls"
+],
+[
+"נדרש 3",
+"process"
+],
+[
+"נדרש 4",
+"process"
+],
+[
+"נדרש 5",
+"outsourcing"
+]
+]
+},
+{
+"id": "council-2018-summer-q10",
+"title": "מגוון שאלות – ITGC וטכניקות ביקורת באמצעות מחשב",
+"source": "בחינת מועצה קיץ 2018 (מועד אביב), שאלה 10, סעיפים 4, 7",
+"topics": [
+"controls",
+"caat"
+],
+"parts": [
+[
+"סעיף 4",
+"controls"
+],
+[
+"סעיף 7",
+"caat"
+]
+]
+},
+{
+"id": "council-2019-summer-q7",
+"title": "חברת צוציתא – איומי סייבר והשפעתם על הביקורת",
+"source": "בחינת מועצה קיץ 2019 (מועד אביב), שאלה 7",
+"topics": [
+"security",
+"process"
+],
+"parts": [
+[
+"נדרש 1",
+"security"
+],
+[
+"נדרש 2",
+"security"
+],
+[
+"נדרש 3",
+"security"
+],
+[
+"נדרש 4",
+"process"
+]
+]
+},
+{
+"id": "council-2020-summer-q7",
+"title": "חברת מאירסון – אתר הזמנות מקוון וביקורת באמצעות מחשב",
+"source": "בחינת מועצה קיץ 2020 (מועד אביב), שאלה 7",
+"topics": [
+"caat",
+"process"
+],
+"parts": [
+[
+"נדרש 1",
+"caat"
+],
+[
+"נדרש 2",
+"caat"
+],
+[
+"נדרש 3",
+"process"
+],
+[
+"נדרש 4",
+"process"
+],
+[
+"נדרש 5",
+"process"
+]
+]
+},
+{
+"id": "council-2021-summer-q7",
+"title": "חברת רומי – בקרות בתהליך הרכש ומעבר למערכת ERP",
+"source": "בחינת מועצה קיץ 2021 (מועד אביב), שאלה 7",
+"topics": [
+"process",
+"sdlc"
+],
+"parts": [
+[
+"נדרש 1",
+"process"
+],
+[
+"נדרש 2",
+"process"
+],
+[
+"נדרש 3",
+"process"
+],
+[
+"נדרש 4",
+"sdlc"
+],
+[
+"נדרש 5",
+"sdlc"
+],
+[
+"נדרש 6",
+"process"
+]
+]
+},
+{
+"id": "council-2022-summer-q7",
+"title": "חברת ק.צ.ג – מערכת מלאי ורכש ממוחשבת, ITGC וספירת מלאי",
+"source": "בחינת מועצה קיץ 2022 (מועד אביב), שאלה 7",
+"topics": [
+"process",
+"controls"
+],
+"parts": [
+[
+"נדרש 1",
+"controls"
+],
+[
+"נדרש 2",
+"process"
+],
+[
+"נדרש 3",
+"process"
+],
+[
+"נדרש 4",
+"process"
+],
+[
+"נדרש 5",
+"controls"
+]
+]
+},
+{
+"id": "council-2023-summer-q7",
+"title": "חברת דניאל – בדיקת נאותות לאתר מכירות מקוון של החברה הנרכשת",
+"source": "בחינת מועצה קיץ 2023 (מועד אביב), שאלה 7",
+"topics": [
+"caat",
+"process",
+"controls"
+],
+"parts": [
+[
+"נדרש 1",
+"process"
+],
+[
+"נדרש 2",
+"caat"
+],
+[
+"נדרש 3",
+"caat"
+],
+[
+"נדרש 4",
+"controls"
+],
+[
+"נדרש 5",
+"process"
+]
+]
+},
+{
+"id": "council-2024-special-q5",
+"title": "חברת שק-רנית – ליקויי הרשאות (ITGC), סיכוני תרמית ובדיקת פקודות יומן",
+"source": "בחינת מועצה מועד מיוחד 2024 (יוני 2024), שאלה 5, נדרש 2, 4",
+"topics": [
+"process",
+"controls"
+],
+"parts": [
+[
+"נדרש 2",
+"controls"
+],
+[
+"נדרש 4",
+"process"
+]
+]
+},
+{
+"id": "council-2025-summer-q5",
+"title": "חברת קייסי תעשיות פרמצבטיות – החלפת מערכת מידע והסבת נתונים בסקירת ביניים",
+"source": "בחינת מועצה קיץ 2025 (מועד אביב), שאלה 5",
+"topics": [
+"process",
+"sdlc"
+],
+"parts": [
+[
+"נדרש 1",
+"process"
+],
+[
+"נדרש 2",
+"process"
+],
+[
+"נדרש 3",
+"process"
+],
+[
+"נדרש 4",
+"sdlc"
+]
+]
+},
+{
+"id": "council-2015-winter-q9",
+"title": "מלונות עדן בע\"מ",
+"source": "בחינת מועצה חורף 2015, שאלה 9",
+"topics": [
+"caat",
+"security",
+"controls"
+],
+"parts": [
+[
+"נדרש 1",
+"caat"
+],
+[
+"נדרש 2",
+"caat"
+],
+[
+"נדרש 3",
+"security"
+],
+[
+"נדרש 4",
+"controls"
+]
+]
+},
+{
+"id": "council-2016-winter-q9",
+"title": "דיון במשרד רו\"ח – ביקורת IT ושילובה בביקורת דוחות כספיים",
+"source": "בחינת מועצה חורף 2016, שאלה 9",
+"topics": [
+"controls",
+"security",
+"systems",
+"process",
+"bcp"
+],
+"parts": [
+[
+"סעיף 1",
+"controls"
+],
+[
+"סעיף 2",
+"security"
+],
+[
+"סעיף 3",
+"systems"
+],
+[
+"סעיף 4",
+"process"
+],
+[
+"סעיף 5",
+"bcp"
+]
+]
+},
+{
+"id": "council-2017-winter-q9",
+"title": "כבישי אגרה בע\"מ – כביש האגרה באר שבע-אילת",
+"source": "בחינת מועצה חורף (סתיו) 2017, שאלה 9",
+"topics": [
+"process",
+"controls"
+],
+"parts": [
+[
+"נדרש 1",
+"process"
+],
+[
+"נדרש 2",
+"controls"
+],
+[
+"נדרש 3",
+"process"
+],
+[
+"נדרש 4",
+"process"
+]
+]
+},
+{
+"id": "council-2018-winter-q1",
+"title": "חברת הרכבת הקלה בשדרות – פריצות סייבר ודוח על הבקרה הפנימית",
+"source": "בחינת מועצה חורף (סתיו) 2018, שאלה 1 (פריט 5 בלבד)",
+"topics": [
+"security"
+],
+"parts": [
+[
+"נדרש 1 (פריט 5)",
+"security"
+]
+]
+},
+{
+"id": "council-2018-winter-q2",
+"title": "דני דניאל בע\"מ – תהליך הרכש ומערכת מידע עם מרכז מידע",
+"source": "בחינת מועצה חורף (סתיו) 2018, שאלה 2 (נדרש 4 בלבד)",
+"topics": [
+"controls"
+],
+"parts": [
+[
+"נדרש 4",
+"controls"
+]
+]
+},
+{
+"id": "council-2018-winter-q7",
+"title": "ארץ בע\"מ – מערכת לאיחוד הדוחות הכספיים",
+"source": "בחינת מועצה חורף (סתיו) 2018, שאלה 7",
+"topics": [
+"process",
+"controls"
+],
+"parts": [
+[
+"נדרש 1",
+"process"
+],
+[
+"נדרש 2",
+"process"
+],
+[
+"נדרש 3",
+"controls"
+],
+[
+"נדרש 4",
+"process"
+]
+]
+},
+{
+"id": "council-2019-winter-q4",
+"title": "מגוון שאלות – המושג ITGC וזיקתו לביקורת דוחות כספיים",
+"source": "בחינת מועצה חורף (סתיו) 2019, שאלה 4 (סעיף 8 בלבד)",
+"topics": [
+"controls"
+],
+"parts": [
+[
+"סעיף 8",
+"controls"
+]
+]
+},
+{
+"id": "council-2019-winter-q5",
+"title": "רומי בע\"מ – דוח גיול לקוחות ובדיקות באמצעות כלים ממוחשבים",
+"source": "בחינת מועצה חורף (סתיו) 2019, שאלה 5 (נדרש 1–2 בלבד)",
+"topics": [
+"caat"
+],
+"parts": [
+[
+"נדרש 1",
+"caat"
+],
+[
+"נדרש 2",
+"caat"
+]
+]
+},
+{
+"id": "council-2019-winter-q7",
+"title": "קינג בע\"מ – החלפת מערכת המידע הפיננסי",
+"source": "בחינת מועצה חורף (סתיו) 2019, שאלה 7",
+"topics": [
+"sdlc",
+"process"
+],
+"parts": [
+[
+"נדרש 1",
+"sdlc"
+],
+[
+"נדרש 2",
+"sdlc"
+],
+[
+"נדרש 3",
+"process"
+],
+[
+"נדרש 4",
+"process"
+],
+[
+"נדרש 5",
+"process"
+],
+[
+"נדרש 6",
+"process"
+]
+]
+},
+{
+"id": "council-2020-winter-q7",
+"title": "דני דניאל בע\"מ – בקרות כלליות של טכנולוגיית המידע (ITGC)",
+"source": "בחינת מועצה חורף (סתיו) 2020, שאלה 7",
+"topics": [
+"process",
+"controls"
+],
+"parts": [
+[
+"נדרש 1",
+"process"
+],
+[
+"נדרש 2",
+"process"
+],
+[
+"נדרש 3",
+"controls"
+],
+[
+"נדרש 4",
+"controls"
+],
+[
+"נדרש 5",
+"controls"
+]
+]
+},
+{
+"id": "council-2021-winter-q7",
+"title": "קייסי בע\"מ – מעבר לענן ופריצת סייבר",
+"source": "בחינת מועצה חורף (סתיו) 2021, שאלה 7",
+"topics": [
+"outsourcing",
+"security",
+"controls",
+"process"
+],
+"parts": [
+[
+"נדרש 1",
+"outsourcing"
+],
+[
+"נדרש 2",
+"outsourcing"
+],
+[
+"נדרש 3",
+"outsourcing"
+],
+[
+"נדרש 4",
+"security"
+],
+[
+"נדרש 5",
+"controls"
+],
+[
+"נדרש 6",
+"process"
+]
+]
+},
+{
+"id": "council-2021-winter-q8",
+"title": "מגוון שאלות – טכניקות ביקורת באמצעות מחשב (CAATs)",
+"source": "בחינת מועצה חורף (סתיו) 2021, שאלה 8 (סעיף 5 בלבד)",
+"topics": [
+"caat"
+],
+"parts": [
+[
+"סעיף 5",
+"caat"
+]
+]
+},
+{
+"id": "council-2022-winter-q7",
+"title": "סיכום הרצאה – ביקורת בסביבת מערכות מידע ממוחשבות",
+"source": "בחינת מועצה חורף (סתיו) 2022, שאלה 7",
+"topics": [
+"systems",
+"process",
+"controls"
+],
+"parts": [
+[
+"נושא 1",
+"systems"
+],
+[
+"נושא 2",
+"process"
+],
+[
+"נושא 3",
+"controls"
+],
+[
+"נושא 4",
+"controls"
+],
+[
+"נושא 5",
+"process"
+],
+[
+"נושא 6",
+"process"
+]
+]
+},
+{
+"id": "council-2023-winter-q5",
+"title": "דני דניאל בע\"מ – אירוע סייבר וחסימת מערכות המידע",
+"source": "בחינת מועצה חורף (סתיו) 2023, שאלה 5",
+"topics": [
+"security",
+"process"
+],
+"parts": [
+[
+"נדרש 1",
+"security"
+],
+[
+"נדרש 2",
+"process"
+],
+[
+"נדרש 3",
+"process"
+],
+[
+"נדרש 4",
+"process"
+],
+[
+"נדרש 5",
+"process"
+]
+]
+},
+{
+"id": "council-2024-winter-q5",
+"title": "רומיקל בע\"מ – החלפת מערכת המידע הפיננסי",
+"source": "בחינת מועצה חורף (סתיו) 2024, שאלה 5",
+"topics": [
+"sdlc",
+"process"
+],
+"parts": [
+[
+"נדרש 1",
+"sdlc"
+],
+[
+"נדרש 2",
+"process"
+],
+[
+"נדרש 3",
+"process"
+],
+[
+"נדרש 4",
+"process"
+],
+[
+"נדרש 5",
+"process"
+]
+]
+},
+{
+"id": "council-2025-winter-q4",
+"title": "צ'ארלי וחצי בע\"מ – הרשאות בלתי מוגבלות לפקודות יומן ידניות ב-ERP",
+"source": "בחינת מועצה חורף (סתיו) 2025, שאלה 4 (נדרש 4 בלבד)",
+"topics": [
+"process"
+],
+"parts": [
+[
+"נדרש 4",
+"process"
+]
+]
+}
+]
