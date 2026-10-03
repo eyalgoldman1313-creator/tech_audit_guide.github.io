@@ -79,7 +79,7 @@ function article(a, c) {
     out.push(`<div class="section-label">${inline(l.title)}</div><${tag} class="${l.ordered ? 'numbered' : 'tight'}">${l.items.map((x) => `<li>${inline(x)}</li>`).join('')}</${tag}>`);
   });
   (a.tables ?? []).forEach((t) => {
-    out.push(`<div class="section-label">${inline(t.title)}</div><div class="tbl-wrap"><table class="gtable"><thead><tr>${t.headers.map((h) => `<th>${inline(h)}</th>`).join('')}</tr></thead><tbody>${t.rows.map((r) => `<tr>${r.map((x, i) => `<td>${i === 0 ? `<b>${inline(x)}</b>` : inline(x)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`);
+    out.push(`<div class="section-label">${inline(t.title)}</div><div class="tbl-wrap"><table class="gtable"><thead><tr>${t.headers.map((h) => `<th>${inline(h)}</th>`).join('')}</tr></thead><tbody>${t.rows.map((r) => `<tr>${r.map((x, i) => `<td data-label="${esc(String(t.headers[i] ?? '').replace(/[*_`]/g, ''))}">${i === 0 ? `<b>${inline(x)}</b>` : inline(x)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`);
   });
   if (a.quotes?.length) {
     out.push(`<div class="section-label">ציטוטים מהמקור</div>`);
@@ -128,14 +128,17 @@ const index = chapters.flatMap((c) => c.articles.map((a) => ({
 const nArticles = index.length;
 
 const refCss = fs.readFileSync(path.join(ROOT, 'ref_style.css'), 'utf8');
-const extraCss = fs.readFileSync(path.join(ROOT, 'extra.css'), 'utf8');
+const extraCss = fs.readFileSync(path.join(ROOT, 'extra.css'), 'utf8') + fs.readFileSync(path.join(ROOT, 'mobile.css'), 'utf8');
+const mobileJs = fs.readFileSync(path.join(ROOT, 'mobile.js'), 'utf8');
+const sheet = chapters.map((c) => `<details data-ch="ch-${c.id}"><summary><span class="n" style="background:${c.accent}">${c.num}</span>${esc(c.title)}<span class="chev">⌄</span></summary><div class="arts"><a href="#ch-${c.id}"><b>פתיחת הפרק</b></a>${c.articles.map((a) => `<a href="#${esc(a.id)}">${inline(a.title)}</a>`).join('')}</div></details>`).join('');
 const script = fs.readFileSync(path.join(ROOT, 'guide.js'), 'utf8');
 
 const html = `<!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#F6F7FC">
 <title>מדריך — ביקורת מערכות מידע ממוחשבות</title>
 <meta name="description" content="מדריך לימוד מלא לקורס ביקורת מערכות מידע ממוחשבות בשילוב AI — סיכומים, מושגים, טבלאות השוואה, ציטוטים מהתקנים ודגשים לבחינה.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%236366F1'/%3E%3Cpath d='M18 18h20l8 8v20H18z' fill='none' stroke='%23fff' stroke-width='4'/%3E%3Cpath d='M24 34h16M24 41h10' stroke='%23fff' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
@@ -186,9 +189,19 @@ ${sections}
   <a href="${PRACTICE_URL}" target="_blank" rel="noopener">לאתר התרגול ←</a>
 </footer>
 <button class="b2t" id="b2t" aria-label="חזרה למעלה">↑</button>
+<div class="progress" aria-hidden="true"><i></i></div>
+<nav class="mbar" aria-label="ניווט מהיר">
+  <button data-sheet><span class="ic">📚</span>פרקים</button>
+  <button data-search><span class="ic">🔎</span>חיפוש</button>
+  <a href="${PRACTICE_URL}" target="_blank" rel="noopener"><span class="ic">📝</span>תרגול</a>
+  <button data-top><span class="ic">↑</span>למעלה</button>
+</nav>
+<div class="mscrim"></div>
+<div class="msheet" role="dialog" aria-label="פרקי המדריך"><div class="grab"></div><h4>פרקי המדריך</h4>${sheet}</div>
 <script>window.__INDEX__=${JSON.stringify(index)};</script>
 <script>
 ${script}
+${mobileJs}
 </script>
 </body>
 </html>`;
